@@ -7,7 +7,7 @@
       - Calcular a média
 
     Mostrar no console/output o seguinte:
-    Méd5a da t4r0a: 10.0
+    Média da turma: 10.0
 */
 let alunos = ["Eliane", "Dheison", "Pamela", "Cibele" ];
 
@@ -17,13 +17,23 @@ console.log(alunos[1]);
 console.log(alunos[2]);
 console.log(alunos[3]);
 
-let notas = [10.0, 7.5, 8.5, 6.0, 9.0];
+const notas = [10.0, 7.5, 8.5, 6.0, 9.0];
+
+let soma = 0;
 
 
-for(resultado = 0; resultado <= notas.length; resultado++){
-     somar =+ notas[resultado];
+for(let i = 0; i < notas.length; i++) {
+     somar += notas[resultado];
 }
+
+
+// Soma = 40;
+
+let media = soma / notas.length;
+
 console.log(notas);
+
+
     
 
 
